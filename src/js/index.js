@@ -76,7 +76,7 @@ class Table {
 
     inputPageCapacity(){
         let body =  document.querySelector('body');
-        body.innerHTML = `<input type="number" min="1" value="5">`;
+        body.innerHTML = `<input type="number" min="1" value="${this.pageCapacity}">`;
 
         let input =  document.querySelector('input');
         input.addEventListener("change",()=>{
@@ -121,5 +121,5 @@ class Table {
 }
 
 
-let table = new Table(tData, 5)
+let table = new Table(tData, 10)
 table.drawTable();
