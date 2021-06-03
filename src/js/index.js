@@ -102,8 +102,7 @@ class Table {
         let pages = Math.ceil(this.tData.length / this.pageCapacity) + 1;
         allPagesDiv.innerHTML = "";
 
-        console.log(this.page, pages);
-        if(this.page=pages) this.page = 1;
+        if(this.page==pages) this.page = 1;
 
         for (let i = 1; i < pages; i++) {
 
