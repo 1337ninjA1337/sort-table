@@ -10,6 +10,7 @@ class Table {
 
     drawTable() {
         this.removeTable();
+        if(!document.querySelector('input')) this.inputPageCapacity()
         if (!document.querySelector('.page')) this.pagination();
 
 
@@ -34,7 +35,7 @@ class Table {
             }
         }
 
-        header.innerHTML += uniqueArr.map(key =>`<div class="header-element"> ${key} </div>`).join('');
+        header.innerHTML += uniqueArr.map(key =>`<div class="header-element">${key}</div>`).join('');
 
         table.appendChild(header);
 
@@ -62,7 +63,7 @@ class Table {
     }
 
     sortTable(sortBy) {
-        this.tData.sort((a, b) => a[sortBy.trim()] > b[sortBy.trim()] ? 1 : -1);
+        this.tData.sort((a, b) => a[sortBy] > b[sortBy] ? 1 : -1);
         this.removeTable();
         this.drawTable();
     }
@@ -71,6 +72,20 @@ class Table {
         if (document.querySelector('#table')) {
             document.querySelector('body').removeChild(document.querySelector('#table'));
         }
+    }
+
+    inputPageCapacity(){
+        let body =  document.querySelector('body');
+        body.innerHTML = `<input type="number" min="1" value="5">`;
+
+        let input =  document.querySelector('input');
+        input.addEventListener("change",()=>{
+            if(document.querySelector('.page')) body.removeChild(document.querySelector('.pages'));
+            this.pageCapacity = input.value;
+            
+            this.pagination();
+            this.drawTable();
+        })
     }
 
     pagination() {

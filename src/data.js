@@ -11,7 +11,6 @@ let tData = [
     {
         symbol: "C",
         number: 8,
-        keys: 2
     },
     {
         symbol: "J",
