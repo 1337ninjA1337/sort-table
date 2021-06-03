@@ -9,7 +9,10 @@ class Table {
     }
 
     drawTable() {
+
+        
         this.removeTable();
+        
         if(!document.querySelector('input')) this.inputPageCapacity()
         if (!document.querySelector('.page')) this.pagination();
 
@@ -79,20 +82,28 @@ class Table {
         body.innerHTML = `<input type="number" min="1" value="${this.pageCapacity}">`;
 
         let input =  document.querySelector('input');
+
+
         input.addEventListener("change",()=>{
-            if(document.querySelector('.page')) body.removeChild(document.querySelector('.pages'));
             this.pageCapacity = input.value;
-            
+                      
+            if(document.querySelector('.page')) body.removeChild(document.querySelector('.pages'));
             this.pagination();
             this.drawTable();
         })
     }
 
     pagination() {
+
+        
+
         let allPagesDiv = document.createElement('div');
         allPagesDiv.classList.add('pages');
         let pages = Math.ceil(this.tData.length / this.pageCapacity) + 1;
         allPagesDiv.innerHTML = "";
+
+        console.log(this.page, pages);
+        if(this.page=pages) this.page = 1;
 
         for (let i = 1; i < pages; i++) {
 
@@ -102,6 +113,8 @@ class Table {
             if (i == this.page) pageDiv.classList.add('active');
             allPagesDiv.appendChild(pageDiv);
         }
+
+
 
         document.querySelector('body').appendChild(allPagesDiv);
 
