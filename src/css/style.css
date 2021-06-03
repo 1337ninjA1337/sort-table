@@ -1,0 +1,413 @@
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+
+#table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-element {
+  background: grey;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.body > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-element0 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element1 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element2 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element3 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element4 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element5 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element6 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element7 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element8 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element9 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element10 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element11 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element12 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element13 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element14 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element15 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element16 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element17 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element18 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element19 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element20 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element21 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element22 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element23 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element24 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element25 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element26 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element27 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element28 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element29 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element30 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element31 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element32 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element33 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element34 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element35 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element36 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element37 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element38 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element39 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element40 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element41 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element42 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element43 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element44 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element45 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element46 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element47 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element48 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.body-element49 {
+  border: 1px solid black;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.pages {
+  width: 100%;
+  height: 50px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 10px;
+  height: 20px;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */
